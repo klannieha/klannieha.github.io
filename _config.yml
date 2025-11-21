@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Annie Ha, PhD. # your name (or website title) here
+logo: "/images/DSC01209.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Scientist / Bioinformatician with over 6 years of expertise in mass spectrometry-based proteomics, building and optimizing computational pipelines for multi-dimensional data, statistical modelling of multi-omics data in identifying molecular patterns driven by clinical factors in cacner.
   <br><br>
-  Second description 
+  I am interested in identifying data-driven solutions for various types of diseases. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/annie-ha-phd-87116481/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
