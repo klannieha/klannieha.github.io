@@ -1,11 +1,11 @@
-## Portfolio
+## Research Experiences
 
 ---
 
-### Category Name 1 
+###  Doctoral Research
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/sample_page)
+<img src="images/thesis_chapter1_schematic_v2.pdf?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
