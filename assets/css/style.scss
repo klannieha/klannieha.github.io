@@ -1,7 +1,8 @@
 ---
 ---
-@import "{{site.theme}}";
+
+@import "{{ site.theme }}";
 
 .inner {
-  max-width:80%;
+  max-width: 100%; /* or a specific value like 1200px or initial */
 }
