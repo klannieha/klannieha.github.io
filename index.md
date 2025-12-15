@@ -6,7 +6,7 @@
 
 [Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/pca_splib_dia)
 <picture>
-  <img alt="Overview of DIA-MS optimization" src="images/thesis_chapter1_schematic_v2.pdf">
+  <img alt="Overview of DIA-MS optimization" src="images/thesis_chapter1_schematic_v2.png">
 </picture>
 
 ---
