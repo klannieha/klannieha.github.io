@@ -4,7 +4,7 @@
 
 ###  Doctoral Research
 
-[Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/sample_page)
+[Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/pca_splib_dia)
 <img src="images/thesis_chapter1_schematic_v2.pdf?raw=true"/>
 
 ---
