@@ -8,13 +8,13 @@ Biofluids such as urine contain molecules in circulation and from nearby organs 
 To evaluate various published DIA-MS methods, I evaluated metrics such as the peptide and protein detection rates, coefficient of variations, using pooled patient urine samples.
 
 <picture>
-  <img alt="Schematic of method optimization" src="thesis_chapter1_methodOpt_schematic">
+  <img alt="Schematic of method optimization" src="thesis_chapter1_methodOpt_schematic.png">
 </picture>
 
 In total, I tested 25 methods (each in triplicates) across various liquid chromatography run time to identify a method that can be comparable to conventional DDA-MS with higher throughput. We identified a 45-minute method that is double the throughput without loss in peptide detection.
 
 <picture>
-  <img alt="Results of various DIA methods tested compared against DDA" src="thesis_chapter1_methodOpt_summary">
+  <img alt="Results of various DIA methods tested compared against DDA" src="thesis_chapter1_methodOpt_summary.png">
 </picture>
 
 
