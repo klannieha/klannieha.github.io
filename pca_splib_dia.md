@@ -33,9 +33,15 @@ Across all the database searching approahces, the method using sample-specific l
   <img alt="Search results across tested methods" src="images/thesis_chapter1_library_results.png" >
 </picture>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-specific library search is chosen as the optimal method.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### 3. Comparison between 45-min DIA against conventional 2-hr DDA method
+
+Having a 45-minute DIA method optimized for urine proteomics analysis, I sought to compare the resulting data matrix against our conventional 2-hr DDA method using the same samples. The results showed that our optimized DIA method was able to identify more peptides and proteins per sample, generate more complete (less missing values) dataset, as well as produce quantitatively comparable intensity compared to DDA.
+
+<picture>
+  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results.pdf">>
+</picture>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
