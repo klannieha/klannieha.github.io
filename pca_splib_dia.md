@@ -18,13 +18,20 @@ In total, I tested 25 methods (each in triplicates) across various liquid chroma
 </picture>
 
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Benchmark various computational strategies for the most comprehensive results
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Currently, there is no consensus of a database searching approach in DIA-MS. In the context of urine proteomics, I compared search results from various library generation approaches against a library-free algorithm and a publicly available library.
+
+<picture>
+  <img alt="Schematic of library generation" src="images/thesis_chapter1_library_schematic.png">
+</picture>
+
+
+Across all the database searching approahces, the method using sample-specific library (uEPS) generated from individual DDA runs of each sample resulted in the most consistently detected peptides. The search times for this method is also less than 1 min per sample, enabling swift and efficient large-scale cohort analyses.
+
+<picture>
+  <img = alt="Search results across tested methods" src="images/thesis_chapter1_library_results.png" >
+</picture>
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
