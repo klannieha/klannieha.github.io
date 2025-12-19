@@ -34,13 +34,14 @@ Across all the database searching approahces, the method using sample-specific l
 </picture>
 
 Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-specific library search is chosen as the optimal method.
+ 
 
 ### 3. Comparison between 45-min DIA against conventional 2-hr DDA method
 
 Having a 45-minute DIA method optimized for urine proteomics analysis, I sought to compare the resulting data matrix against our conventional 2-hr DDA method using the same samples. The results showed that our optimized DIA method was able to identify more peptides and proteins per sample, generate more complete (less missing values) dataset, as well as produce quantitatively comparable intensity compared to DDA.
 
 <picture>
-  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results.pdf">>
+  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results.pdf">
 </picture>
 
 Not only that DIA showed advantageous results in peptide and protein detection rates, it was able to detect more peptides and proteins that are of lower abundance, despite shorter gradient separation.
@@ -49,6 +50,7 @@ Not only that DIA showed advantageous results in peptide and protein detection r
   <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/thesis_chapter1_dda_dia_quantile.png">
 </picture>
 
+ 
 ### 4. Expanding proteome depth using sample-relevant spectral libraries
 
 While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles (EV) dataset, we generated and compared results of DIA unfractionated data searched against various libraries from various urine fractions.
@@ -63,6 +65,7 @@ Using global pathway analysis to compare the ontology of identified proteins bet
 <picture>
   <img alt="Cytoscape of the results" src="images/thesis_chapter1_evlib_cytoscape.png">
 </picture>
+
 
 ### 5. Generating a fully comprehensive prostate cancer urine spectral library
 
