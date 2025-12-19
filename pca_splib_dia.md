@@ -51,8 +51,25 @@ Not only that DIA showed advantageous results in peptide and protein detection r
 
 ### 4. Expanding proteome depth using sample-relevant spectral libraries
 
-While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles dataset, we generated and compared results of DIA data searched against various libraries from various urine fractions.
+While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles (EV) dataset, we generated and compared results of DIA unfractionated data searched against various libraries from various urine fractions.
+
+<picture>
+  <img alt="Library generation using EV data and the subsequent DIA search results" src="images/thesis_chapter1_ev_libraries.png">
+</picture>
 
 
+Using global pathway analysis to compare the ontology of identified proteins between the various spectral libraries, EV-related terms are enriched when using the EV-generated libraries as expected. On the other hand, using the unfractionated libraries enriched in terms for cytosolic proteins.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<picture>
+  <img alt="Cytoscape of the results" src="images/thesis_chapter1_evlib_cytoscape.png">
+</picture>
+
+### 5. Generating a fully comprehensive prostate cancer urine spectral library
+
+Given the benefits from using the spectral libraries derived from other urinary fractions, a combined library was generated using all of the urine spectral data available in the cohorts. Hence, a comprehensive combined library comprised of data from unfractionated urine, EVs is generated.
+
+<picture>
+  <img alt="Full combined library generation" src="images/thesis_chapter1_full_lib.png">
+</picture>
+
+For more details see [published article](https://pubs.acs.org/doi/10.1021/acs.jproteome.4c00009).
