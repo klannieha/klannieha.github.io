@@ -11,7 +11,6 @@
 
 ---
 [Urinary Proteome Heterogeneity in Prostate Cancer between Black and White patients](/pdf/HUPO_poster_AH_with_QR.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
