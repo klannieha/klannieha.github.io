@@ -49,12 +49,6 @@ Not only that DIA showed advantageous results in peptide and protein detection r
   <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/thesis_chapter1_dda_dia_quantile.png">
 </picture>
 
-Not only that DIA showed advantageous results in peptide and protein detection rates, it was able to detect more peptides and proteins that are of lower abundance, despite shorter gradient separation.
-
-<picture>
-  <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/thesis_chapter1_dda_dia_quantile.png">
-</picture>
-
 ### 4. Expanding proteome depth using sample-relevant spectral libraries
 
 While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles dataset, we generated and compared results of DIA data searched against various libraries from various urine fractions.
