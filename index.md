@@ -19,9 +19,17 @@
 
 [MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
 
+<picture>
+  <img src="images/dummy_thumbnail.jpg">
+</picture>
+
 ---
 
 [Evaluation of proteogeonomics statistical analysis for non-model organisms]
+
+<picture>
+  <img src="images/dummy_thumbnail.jpg">
+</picture>
 
 ---
 
