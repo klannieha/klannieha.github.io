@@ -38,5 +38,16 @@ To examine the correlation of urinary protein changes between SIRE and tumour ag
 
 ### 3. Integrative multi-omics analysis revealed immune dysregulation in Black patients
 
+To better understand the mechanistic drivers of the observed proteomics differences, we performed sample-wise gene set variation analysis (GSVA) and global pathway enrichment analyses. Unsupervised hierarchical clustering of sample-wise GSVA scores based on protein abundances revealed clear separation between Black and White patients (Fisher's exact test, $$p = 2.764 x 10^-6$$). Particularly, GSVA analysis of GO:BP and HALLMARK databases also revealed enrichment of immunoglobulin production in Black patient samples and enrichment of androgen response in White patient samples, Global pathway analysis revealed consistent enrichment terms across the two-omics datasets.
+
+
+<picture>
+  <img="Sample-wise gene set variation analysis of the urine proteomics" src="images/aa_urine/figure10_gsva.png">
+</picture>
+
+<picture>
+  <img="Global pathway analysis of ancestry and SIRE in tissue transcriptomics and urine protein abundance associations" src="images/aa_urine/figure_14_gsea_allFDR.png">
+</picture>
+
 
 For more details see [article in preprint](https://doi.org/10.1101/2025.08.14.6703969).
