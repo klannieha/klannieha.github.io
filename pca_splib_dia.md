@@ -8,13 +8,13 @@ Biofluids such as urine contain molecules in circulation and from nearby organs 
 To evaluate various published DIA-MS methods, I evaluated metrics such as the peptide and protein detection rates, coefficient of variations, using pooled patient urine samples.
 
 <picture>
-  <img alt="Schematic of method optimization" src="images/thesis_chapter1_methodOpt_schematic.png">
+  <img alt="Schematic of method optimization" src="images/splib/thesis_chapter1_methodOpt_schematic.png">
 </picture>
 
 In total, I tested 25 methods (each in triplicates) across various liquid chromatography run time to identify a method that can be comparable to conventional DDA-MS with higher throughput. We identified a 45-minute method that is double the throughput without loss in peptide detection.
 
 <picture>
-  <img alt="Results of various DIA methods tested compared against DDA" src="images/thesis_chapter1_methodOpt_summary.png">
+  <img alt="Results of various DIA methods tested compared against DDA" src="images/splib/thesis_chapter1_methodOpt_summary.png">
 </picture>
 
 
@@ -23,14 +23,14 @@ In total, I tested 25 methods (each in triplicates) across various liquid chroma
 Currently, there is no consensus of a database searching approach in DIA-MS. In the context of urine proteomics, I compared search results from various library generation approaches against a library-free algorithm and a publicly available library.
 
 <picture>
-  <img alt="Schematic of library generation" src="images/thesis_chapter1_library_schematic.png">
+  <img alt="Schematic of library generation" src="images/splib/thesis_chapter1_library_schematic.png">
 </picture>
 
 
 Across all the database searching approahces, the method using sample-specific library (uEPS) generated from individual DDA runs of each sample resulted in the most consistently detected peptides. The search times for this method is also less than 1 min per sample, enabling swift and efficient large-scale cohort analyses.
 
 <picture>
-  <img alt="Search results across tested methods" src="images/thesis_chapter1_library_results.png" >
+  <img alt="Search results across tested methods" src="images/splib/thesis_chapter1_library_results.png" >
 </picture>
 
 Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-specific library search is chosen as the optimal method.
@@ -41,13 +41,13 @@ Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-speci
 Having a 45-minute DIA method optimized for urine proteomics analysis, I sought to compare the resulting data matrix against our conventional 2-hr DDA method using the same samples. The results showed that our optimized DIA method was able to identify more peptides and proteins per sample, generate more complete (less missing values) dataset, as well as produce quantitatively comparable intensity compared to DDA.
 
 <picture>
-  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results_v2.png">
+  <img alt="Comparisons of matched samples between DIA and DDA" src="images/splib/thesis_chapter1_dda_dia_results_v2.png">
 </picture>
 
 Not only that DIA showed advantageous results in peptide and protein detection rates, it was able to detect more peptides and proteins that are of lower abundance, despite shorter gradient separation.
 
 <picture>
-  <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/thesis_chapter1_dda_dia_quantile.png">
+  <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/splib/thesis_chapter1_dda_dia_quantile.png">
 </picture>
 
  
@@ -56,14 +56,14 @@ Not only that DIA showed advantageous results in peptide and protein detection r
 While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles (EV) dataset, we generated and compared results of DIA unfractionated data searched against various libraries from various urine fractions.
 
 <picture>
-  <img alt="Library generation using EV data and the subsequent DIA search results" src="images/thesis_chapter1_ev_libraries.png">
+  <img alt="Library generation using EV data and the subsequent DIA search results" src="images/splib/thesis_chapter1_ev_libraries.png">
 </picture>
 
 
 Using global pathway analysis to compare the ontology of identified proteins between the various spectral libraries, EV-related terms are enriched when using the EV-generated libraries as expected. On the other hand, using the unfractionated libraries enriched in terms for cytosolic proteins.
 
 <picture>
-  <img alt="Cytoscape of the results" src="images/thesis_chapter1_evlib_cytoscape.png">
+  <img alt="Cytoscape of the results" src="images/splib/thesis_chapter1_evlib_cytoscape.png">
 </picture>
 
 
@@ -72,7 +72,7 @@ Using global pathway analysis to compare the ontology of identified proteins bet
 Given the benefits from using the spectral libraries derived from other urinary fractions, a combined library was generated using all of the urine spectral data available in the cohorts. Hence, a comprehensive combined library comprised of data from unfractionated urine, EVs is generated.
 
 <picture>
-  <img alt="Full combined library generation" src="images/thesis_chapter1_full_lib.png">
+  <img alt="Full combined library generation" src="images/splib/thesis_chapter1_full_lib.png">
 </picture>
 
 For more details see [published article](https://pubs.acs.org/doi/10.1021/acs.jproteome.4c00009).
