@@ -2,7 +2,7 @@
 
 ---
 
-###  Doctoral Research
+###  Doctoral Research at Kislinger Lab 
 
 [Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/pca_splib_dia)
 <picture>
@@ -10,18 +10,15 @@
 </picture>
 
 ---
-[Urinary Proteome Heterogeneity in Prostate Cancer between Black and White patients](/pdf/HUPO_poster_AH_with_QR.pdf)
+[Urinary Proteome Heterogeneity in Prostate Cancer between Black and White patients](/aa_urine)
 
 ---
 
-### Category Name 2
+### Student Researcher at Rost Lab
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
+[MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
+---
+[Evaluation of proteogeonomics statistical analysis for non-model organisms]
 ---
 
 
