@@ -16,7 +16,7 @@ To assess the influence of self-identified race and ethnicity (**SIRE**) on the 
 
 As the molecular landscape of prostate cancer is influenced by variables such as age and tumour grade, a multivariable analysis adjusting for cISUP grade group (**GG**), age, and serum prostate-specific antigen (**sPSA**) level was used to quantify associations of urinary protein abundance with SIRE. 
 
-$$lm(log_2 protein abundance ~ age + GG + sPSA + SIRE + cohort)$$
+$lm(log_2 protein abundance ~ age + GG + sPSA + SIRE + cohort)$
 
 The multivariable linear regression model chosen revealed 110 proteins significantly associated with SIRE, with top-ranking proteins showing consistent SIRE-driven protein abundance changes across GG within stratified analyses. Notably, immune-related proteins are elevated in Black patient samples, while prostate-derived proteins are associated with White patient samples. The directionality of these effects is also independent of GG.
 
@@ -27,26 +27,26 @@ The multivariable linear regression model chosen revealed 110 proteins significa
 The multivariable analysis also uncovered 129 proteins significantly associated with age, independent from associations with SIRE (Hypergeometric test's p = 0.8229). To test the collinearity between covariates, generalized variance inflation factor analysis showed that all covariates are highly independent. Furthermore, proteins significantly associated with each variable are unique. Altogether, our data suggests that the urinary proteome is heavily influenced by age and SIRE, independent of other clinical variables.
 
 <picture>
-  <img="Protein abundance association with other clinical variables in multivariable analysis" src="images/aa_urine/figure_9_covariates.png">
+  <img alt="Protein abundance association with other clinical variables in multivariable analysis" src="images/aa_urine/figure_9_covariates.png">
 </picture>
 
 To examine the correlation of urinary protein changes between SIRE and tumour aggressiveness, we assessed the effects between clinically significant (cISUP GG 2-5) and clinically insignificant tumours (cISUP GG 1). In stratified analysis within SIRE groups, protein abundance associations with tumour grades in Black patients are not correlated with those of White patients. We also observed that proteins elevated in clinically significant tumours are also preferentially elevated in Black patients within the same model.
 
 <picture>
-  <img="Correlations between SIRE and tumour grades" src="images/aa_urine/main_fig1d_thesis_fig5.png">
+  <img alt="Correlations between SIRE and tumour grades" src="images/aa_urine/main_fig1d_thesis_fig5.png">
 </picture>
 
 ### 3. Integrative multi-omics analysis revealed immune dysregulation in Black patients
 
-To better understand the mechanistic drivers of the observed proteomics differences, we performed sample-wise gene set variation analysis (GSVA) and global pathway enrichment analyses. Unsupervised hierarchical clustering of sample-wise GSVA scores based on protein abundances revealed clear separation between Black and White patients (Fisher's exact test, $$p = 2.764 x 10^-6$$). Particularly, GSVA analysis of GO:BP and HALLMARK databases also revealed enrichment of immunoglobulin production in Black patient samples and enrichment of androgen response in White patient samples, Global pathway analysis revealed consistent enrichment terms across the two-omics datasets.
+To better understand the mechanistic drivers of the observed proteomics differences, we performed sample-wise gene set variation analysis (GSVA) and global pathway enrichment analyses. Unsupervised hierarchical clustering of sample-wise GSVA scores based on protein abundances revealed clear separation between Black and White patients (Fisher's exact test, $p = 2.764 x 10^-6$). Particularly, GSVA analysis of GO:BP and HALLMARK databases also revealed enrichment of immunoglobulin production in Black patient samples and enrichment of androgen response in White patient samples, Global pathway analysis revealed consistent enrichment terms across the two-omics datasets.
 
 
 <picture>
-  <img="Sample-wise gene set variation analysis of the urine proteomics" src="images/aa_urine/figure10_gsva.png">
+  <img alt="Sample-wise gene set variation analysis of the urine proteomics" src="images/aa_urine/figure10_gsva.png">
 </picture>
 
 <picture>
-  <img="Global pathway analysis of ancestry and SIRE in tissue transcriptomics and urine protein abundance associations" src="images/aa_urine/figure_14_gsea_allFDR.png">
+  <img alt="Global pathway analysis of ancestry and SIRE in tissue transcriptomics and urine protein abundance associations" src="images/aa_urine/figure_14_gsea_allFDR.png">
 </picture>
 
 
