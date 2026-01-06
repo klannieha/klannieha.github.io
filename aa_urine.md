@@ -24,6 +24,11 @@ The multivariable linear regression model chosen revealed 110 proteins significa
   <img alt="Protein abundance association with SIRE in multivariable analysis adjusted for age, sPSA, and GG. (A) Volcano plot of protein abundance association with SIRE. (B) Protein abundance for TGM4 and (C) CD33 stratified by Black and White patients across GG. (D) Dot map showing effect size of the top and bottom 10 proteins with the greatest effect sizes in stratified analyses within GG." src="images/aa_urine/main_fig1bc_plus_supp.png">
 </picture>
 
+The multivariable analysis also uncovered 129 proteins significantly associated with age, independent from associations with SIRE (Hypergeometric test's p = 0.8229). To test the collinearity between covariates, generalized variance inflation factor analysis showed that all covariates are highly independent. Furthermore, proteins significantly associated with each variable are unique. Altogether, our data suggests that the urinary proteome is heavily influenced by age and SIRE, independent of other clinical variables.
+
+<picture>
+  <img="Protein abundance association with other clinical variables in multivariable analysis" src="images/aa_urine/figure_9_covariates.png">
+</picture>
 
 ### 2. Benchmark various computational strategies for the most comprehensive results
 
