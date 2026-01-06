@@ -33,7 +33,7 @@ The multivariable analysis also uncovered 129 proteins significantly associated 
 To examine the correlation of urinary protein changes between SIRE and tumour aggressiveness, we assessed the effects between clinically significant (cISUP GG 2-5) and clinically insignificant tumours (cISUP GG 1). In stratified analysis within SIRE groups, protein abundance associations with tumour grades in Black patients are not correlated with those of White patients. We also observed that proteins elevated in clinically significant tumours are also preferentially elevated in Black patients within the same model.
 
 <picture>
-  <img="Correlations between SIRE and tumour grades" src="images/aa_urine/main_fig1d_thesis_fig5.png">>
+  <img="Correlations between SIRE and tumour grades" src="images/aa_urine/main_fig1d_thesis_fig5.png">
 </picture>
 
 ### 3. Integrative multi-omics analysis revealed immune dysregulation in Black patients
