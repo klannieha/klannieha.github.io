@@ -18,13 +18,12 @@
 ### Student Researcher at Rost Lab
 
 [MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
+
 ---
+
 [Evaluation of proteogeonomics statistical analysis for non-model organisms]
----
-
-
-
 
 ---
+
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
