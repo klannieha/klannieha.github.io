@@ -12,6 +12,19 @@ To assess the influence of self-identified race and ethnicity (**SIRE**) on the 
 </picture>
 
 
+### 2. Race and ethnicity associations with the urinary proteome
+
+As the molecular landscape of prostate cancer is influenced by variables such as age and tumour grade, a multivariable analysis adjusting for cISUP grade group (**GG**), age, and serum prostate-specific antigen (**sPSA**) level was used to quantify associations of urinary protein abundance with SIRE. 
+
+$$lm(log_2 protein abundance ~ age + GG + sPSA + SIRE + cohort)$$
+
+The multivariable linear regression model chosen revealed 110 proteins significantly associated with SIRE, with top-ranking proteins showing consistent SIRE-driven protein abundance changes across GG within stratified analyses. Notably, immune-related proteins are elevated in Black patient samples, while prostate-derived proteins are associated with White patient samples. The directionality of these effects is also independent of GG.
+
+<picture>
+  <img alt="Protein abundance association with SIRE in multivariable analysis adjusted for age, sPSA, and GG. (A) Volcano plot of protein abundance association with SIRE. (B) Protein abundance for TGM4 and (C) CD33 stratified by Black and White patients across GG. (D) Dot map showing effect size of the top and bottom 10 proteins with the greatest effect sizes in stratified analyses within GG." src="images/aa_urine/main_fig1bc_plus_supp.png">
+</picture>
+
+
 ### 2. Benchmark various computational strategies for the most comprehensive results
 
 Currently, there is no consensus of a database searching approach in DIA-MS. In the context of urine proteomics, I compared search results from various library generation approaches against a library-free algorithm and a publicly available library.
