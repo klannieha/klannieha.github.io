@@ -2,76 +2,52 @@
 
 Black men have higher prostate cancer incidence rates and greater risk of mortality compared to White men. While such disparity is multifactorial, there is growing evidence showing ancestry-driven molecular heterogeneity of prostate cancer. The reported heterogeneity suggests that race and ethnicity be considered a critical covariate when identifying potential biomarkers. Urine contains prostate-derived proteins that can reflect the physiological state of the prostate and is suitable for biomarker. However, the ancestry-driven racial and ethnic influences on the urinary proteome is understudied. Here, I investigated the variance of the urinary proteome between self-identified Black and White patients with localized prostate cancer to inform potential biases and considerations in urine biomarker development.
 
-### 1. Optimize DIA-MS acquisition scheme for improved throughput
 
-To evaluate various published DIA-MS methods, I evaluated metrics such as the peptide and protein detection rates, coefficient of variations, using pooled patient urine samples.
+### 1. Clinically diverse cohort for assessing variance contributing factors
 
-<picture>
-  <img alt="Schematic of method optimization" src="images/thesis_chapter1_methodOpt_schematic.png">
-</picture>
-
-In total, I tested 25 methods (each in triplicates) across various liquid chromatography run time to identify a method that can be comparable to conventional DDA-MS with higher throughput. We identified a 45-minute method that is double the throughput without loss in peptide detection.
+To assess the influence of self-identified race and ethnicity (**SIRE**) on the urine composition, we characterized the post-DRE urine protoeme from 329 patients with localized prostate cancer and evaluated differences that may contribute to the reported heterogeneity. The overview of cohort and processing workflow is shown below.
 
 <picture>
-  <img alt="Results of various DIA methods tested compared against DDA" src="images/thesis_chapter1_methodOpt_summary.png">
+ <img alt="Overview of the urine proteomics cohort and processing workflow." src="images/aa_urine/figure1a_overview.png">
 </picture>
 
 
-### 2. Benchmark various computational strategies for the most comprehensive results
+### 2. Race and ethnicity associations with the urinary proteome
 
-Currently, there is no consensus of a database searching approach in DIA-MS. In the context of urine proteomics, I compared search results from various library generation approaches against a library-free algorithm and a publicly available library.
+As the molecular landscape of prostate cancer is influenced by variables such as age and tumour grade, a multivariable analysis adjusting for cISUP grade group (**GG**), age, and serum prostate-specific antigen (**sPSA**) level was used to quantify associations of urinary protein abundance with SIRE. 
+
+$$lm(log_2 protein abundance ~ age + GG + sPSA + SIRE + cohort)$$
+
+The multivariable linear regression model chosen revealed 110 proteins significantly associated with SIRE, with top-ranking proteins showing consistent SIRE-driven protein abundance changes across GG within stratified analyses. Notably, immune-related proteins are elevated in Black patient samples, while prostate-derived proteins are associated with White patient samples. The directionality of these effects is also independent of GG.
 
 <picture>
-  <img alt="Schematic of library generation" src="images/thesis_chapter1_library_schematic.png">
+  <img alt="Protein abundance association with SIRE in multivariable analysis adjusted for age, sPSA, and GG. (A) Volcano plot of protein abundance association with SIRE. (B) Protein abundance for TGM4 and (C) CD33 stratified by Black and White patients across GG. (D) Dot map showing effect size of the top and bottom 10 proteins with the greatest effect sizes in stratified analyses within GG." src="images/aa_urine/main_fig1bc_plus_supp.png">
+</picture>
+
+The multivariable analysis also uncovered 129 proteins significantly associated with age, independent from associations with SIRE (Hypergeometric test's p = 0.8229). To test the collinearity between covariates, generalized variance inflation factor analysis showed that all covariates are highly independent. Furthermore, proteins significantly associated with each variable are unique. Altogether, our data suggests that the urinary proteome is heavily influenced by age and SIRE, independent of other clinical variables.
+
+<picture>
+  <img="Protein abundance association with other clinical variables in multivariable analysis" src="images/aa_urine/figure_9_covariates.png">
+</picture>
+
+To examine the correlation of urinary protein changes between SIRE and tumour aggressiveness, we assessed the effects between clinically significant (cISUP GG 2-5) and clinically insignificant tumours (cISUP GG 1). In stratified analysis within SIRE groups, protein abundance associations with tumour grades in Black patients are not correlated with those of White patients. We also observed that proteins elevated in clinically significant tumours are also preferentially elevated in Black patients within the same model.
+
+<picture>
+  <img="Correlations between SIRE and tumour grades" src="images/aa_urine/main_fig1d_thesis_fig5.png">>
+</picture>
+
+### 3. Integrative multi-omics analysis revealed immune dysregulation in Black patients
+
+To better understand the mechanistic drivers of the observed proteomics differences, we performed sample-wise gene set variation analysis (GSVA) and global pathway enrichment analyses. Unsupervised hierarchical clustering of sample-wise GSVA scores based on protein abundances revealed clear separation between Black and White patients (Fisher's exact test, $$p = 2.764 x 10^-6$$). Particularly, GSVA analysis of GO:BP and HALLMARK databases also revealed enrichment of immunoglobulin production in Black patient samples and enrichment of androgen response in White patient samples, Global pathway analysis revealed consistent enrichment terms across the two-omics datasets.
+
+
+<picture>
+  <img="Sample-wise gene set variation analysis of the urine proteomics" src="images/aa_urine/figure10_gsva.png">
+</picture>
+
+<picture>
+  <img="Global pathway analysis of ancestry and SIRE in tissue transcriptomics and urine protein abundance associations" src="images/aa_urine/figure_14_gsea_allFDR.png">
 </picture>
 
 
-Across all the database searching approahces, the method using sample-specific library (uEPS) generated from individual DDA runs of each sample resulted in the most consistently detected peptides. The search times for this method is also less than 1 min per sample, enabling swift and efficient large-scale cohort analyses.
-
-<picture>
-  <img alt="Search results across tested methods" src="images/thesis_chapter1_library_results.png" >
-</picture>
-
-Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-specific library search is chosen as the optimal method.
- 
-
-### 3. Comparison between 45-min DIA against conventional 2-hr DDA method
-
-Having a 45-minute DIA method optimized for urine proteomics analysis, I sought to compare the resulting data matrix against our conventional 2-hr DDA method using the same samples. The results showed that our optimized DIA method was able to identify more peptides and proteins per sample, generate more complete (less missing values) dataset, as well as produce quantitatively comparable intensity compared to DDA.
-
-<picture>
-  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results.pdf">
-</picture>
-
-Not only that DIA showed advantageous results in peptide and protein detection rates, it was able to detect more peptides and proteins that are of lower abundance, despite shorter gradient separation.
-
-<picture>
-  <img alt="Detection rates of proteins across abundance quartile (1 is lowest abundance, 4 is highest)" src="images/thesis_chapter1_dda_dia_quantile.png">
-</picture>
-
- 
-### 4. Expanding proteome depth using sample-relevant spectral libraries
-
-While I have shown that DIA-MS can improve protein detection and sample throughput, lower abundance and less frequently detected prostate-derived proteins may be missed in spectral libraries derived from unfractionated urine due to the high dynamic range of the sample type. Leveraging previously published urine-derived extracellular vesicles (EV) dataset, we generated and compared results of DIA unfractionated data searched against various libraries from various urine fractions.
-
-<picture>
-  <img alt="Library generation using EV data and the subsequent DIA search results" src="images/thesis_chapter1_ev_libraries.png">
-</picture>
-
-
-Using global pathway analysis to compare the ontology of identified proteins between the various spectral libraries, EV-related terms are enriched when using the EV-generated libraries as expected. On the other hand, using the unfractionated libraries enriched in terms for cytosolic proteins.
-
-<picture>
-  <img alt="Cytoscape of the results" src="images/thesis_chapter1_evlib_cytoscape.png">
-</picture>
-
-
-### 5. Generating a fully comprehensive prostate cancer urine spectral library
-
-Given the benefits from using the spectral libraries derived from other urinary fractions, a combined library was generated using all of the urine spectral data available in the cohorts. Hence, a comprehensive combined library comprised of data from unfractionated urine, EVs is generated.
-
-<picture>
-  <img alt="Full combined library generation" src="images/thesis_chapter1_full_lib.png">
-</picture>
-
-For more details see [published article](https://pubs.acs.org/doi/10.1021/acs.jproteome.4c00009).
+For more details see [article in preprint](https://doi.org/10.1101/2025.08.14.6703969).
