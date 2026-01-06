@@ -2,18 +2,13 @@
 
 Black men have higher prostate cancer incidence rates and greater risk of mortality compared to White men. While such disparity is multifactorial, there is growing evidence showing ancestry-driven molecular heterogeneity of prostate cancer. The reported heterogeneity suggests that race and ethnicity be considered a critical covariate when identifying potential biomarkers. Urine contains prostate-derived proteins that can reflect the physiological state of the prostate and is suitable for biomarker. However, the ancestry-driven racial and ethnic influences on the urinary proteome is understudied. Here, I investigated the variance of the urinary proteome between self-identified Black and White patients with localized prostate cancer to inform potential biases and considerations in urine biomarker development.
 
-### 1. Optimize DIA-MS acquisition scheme for improved throughput
 
-To evaluate various published DIA-MS methods, I evaluated metrics such as the peptide and protein detection rates, coefficient of variations, using pooled patient urine samples.
+### 1. Clinically diverse cohort for assessing variance contributing factors
 
-<picture>
-  <img alt="Schematic of method optimization" src="images/thesis_chapter1_methodOpt_schematic.png">
-</picture>
-
-In total, I tested 25 methods (each in triplicates) across various liquid chromatography run time to identify a method that can be comparable to conventional DDA-MS with higher throughput. We identified a 45-minute method that is double the throughput without loss in peptide detection.
+To assess the influence of self-identified race and ethnicity (**SIRE**) on the urine composition, we characterized the post-DRE urine protoeme from 329 patients with localized prostate cancer and evaluated differences that may contribute to the reported heterogeneity. The overview of cohort and processing workflow is shown below.
 
 <picture>
-  <img alt="Results of various DIA methods tested compared against DDA" src="images/thesis_chapter1_methodOpt_summary.png">
+ <img alt="Overview of the urine proteomics cohort and processing workflow." src="images/aa_urine/figure1a_overview.png">
 </picture>
 
 
