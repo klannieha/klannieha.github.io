@@ -1,7 +1,6 @@
-## Evaluation and Optimization of DIA-MS for Prostate Cancer Urine Proteomics Analysis
+## Urine Proteome Vary by Ancestry in Localized Prostate Cancer Patients
 
-Biofluids such as urine contain molecules in circulation and from nearby organs that can be indicative of disease states. However, comprehensive profiling of the proteomes in urine has been challening due to high dynamic range and variability between samples. Data-independent acquisition mass spectrometry (DIA-MS) has been popularized over recent decades as a high throughput and sensitive bottom-up proteomics workflow with improved data completeness compared to conventional MS methods. Hence, characteirizing the proteome of patient-derived urines with DIA-MS is an emerging area of interest for biomarker discovery. Thus far, there is limited consensus on DIA-MS acquisition and analysis approaches. In this project, I benchmarked several published DIA-MS acquisition schemes, as well as various computational analysis workflows using a clinically heterogeneous cohort from patients with localized prostate cancer, to identify an optimal DIA-MS workflow for large-scale urine proteomics analyses.
-
+Black men have higher prostate cancer incidence rates and greater risk of mortality compared to White men. While such disparity is multifactorial, there is growing evidence showing ancestry-driven molecular heterogeneity of prostate cancer. The reported heterogeneity suggests that race and ethnicity be considered a critical covariate when identifying potential biomarkers. Urine contains prostate-derived proteins that can reflect the physiological state of the prostate and is suitable for biomarker. However, the ancestry-driven racial and ethnic influences on the urinary proteome is understudied. Here, I investigated the variance of the urinary proteome between self-identified Black and White patients with localized prostate cancer to inform potential biases and considerations in urine biomarker development.
 
 ### 1. Optimize DIA-MS acquisition scheme for improved throughput
 
@@ -41,7 +40,7 @@ Therefore, altogether, the 45-minute DIA-MS method coupled with the sample-speci
 Having a 45-minute DIA method optimized for urine proteomics analysis, I sought to compare the resulting data matrix against our conventional 2-hr DDA method using the same samples. The results showed that our optimized DIA method was able to identify more peptides and proteins per sample, generate more complete (less missing values) dataset, as well as produce quantitatively comparable intensity compared to DDA.
 
 <picture>
-  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results_v2.png">
+  <img alt="Comparisons of matched samples between DIA and DDA" src="images/thesis_chapter1_dda_dia_results.pdf">
 </picture>
 
 Not only that DIA showed advantageous results in peptide and protein detection rates, it was able to detect more peptides and proteins that are of lower abundance, despite shorter gradient separation.
