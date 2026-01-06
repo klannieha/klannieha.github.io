@@ -5,8 +5,9 @@
 ###  Doctoral Research at Kislinger Lab 
 
 [Optimization of Data-Independent Acquisition Mass Spectrometry for Urine Proteomics](/pca_splib_dia)
+
 <picture>
-  <img alt="Overview of DIA-MS optimization" src="images/thesis_chapter1_schematic_v2.png">
+  <img alt="Overview of DIA-MS optimization" src="images/splib/thesis_chapter1_schematic_v2.png">
 </picture>
 
 ---
