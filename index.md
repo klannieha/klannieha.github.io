@@ -21,7 +21,7 @@
 
 ### Student Researcher at Rost Lab
 
-[MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
+[MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method](/mobidik.md)
 
 <picture>
   <img src="images/diapsef_paper.png">
