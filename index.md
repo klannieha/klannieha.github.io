@@ -16,6 +16,7 @@
 <picture>
   <img alt="HUPO 2025 Poster" src="images/aa_urine/HUPO_poster_AH_with_QR.png">
 </picture>
+
 ---
 
 ### Student Researcher at Rost Lab
