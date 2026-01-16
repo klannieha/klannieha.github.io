@@ -13,6 +13,9 @@
 ---
 [Urinary Proteome Heterogeneity in Prostate Cancer between Black and White patients](/aa_urine)
 
+<picture>
+  <img alt="HUPO 2025 Poster" src="images/aa_urine/HUPO_poster_AH_with_QR.png">
+</picture>
 ---
 
 ### Student Researcher at Rost Lab
@@ -20,7 +23,7 @@
 [MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
 
 <picture>
-  <img src="images/dummy_thumbnail.jpg">
+  <img src="images/diapsef_paper.png">
 </picture>
 
 ---
