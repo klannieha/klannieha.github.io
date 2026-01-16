@@ -16,11 +16,12 @@
 <picture>
   <img alt="HUPO 2025 Poster" src="images/aa_urine/HUPO_poster_AH_with_QR.png">
 </picture>
+
 ---
 
 ### Student Researcher at Rost Lab
 
-[MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method]
+[MOBI-DIK: Optimization of diaPASEF as a novel mass spectrometry-based proteomics method](/mobidik.md)
 
 <picture>
   <img src="images/diapsef_paper.png">
