@@ -2,30 +2,13 @@
 
 MOBI-DIK is a workflow for analyzing data-independent acquisition-coupled parallel accumulation and serial fragmentation **(diaPASEF)** data. MOBI-DIK is an extension of the OpenSWATH workflow that is optimized for ion mobility analysis as well as _diapysef_, a _python_ package converting diaPASEF data from vendor format to open mzML format.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Optimization of high dimensional data acquisition with timsTOF
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 2. Streamline library generation for ion mobility
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 3. Application on varying injection amount
 
-### 2. Assess assumptions on which statistical inference will be based
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+For initial documentation of diaPSEF see [manuscript] (https://www.nature.com/articles/s41592-020-00998-0/).
+For more instructions on MOBI-DIK and diapysef python packages see [OpenSWATH] (https://openswath.org/en/latest/docs/mobidik/mobi-dik.html/).
 
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
